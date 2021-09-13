@@ -22,9 +22,14 @@ jobs:
     
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-java@v2
+      - name: Set up JDK 1.8
+        uses: actions/setup-java@v2
         with:
-          java-version: '11'
           distribution: 'adopt'
-      - name: Run the Maven verify phase
-        run: mvn --batch-mode --update-snapshots verify
+          java-version: '8'
+      - name: Thundra Maven Test Instrumentation
+        uses: thundra-io/thundra-maven-test-action@v1
+        with:
+          apikey: 48780c35-a487-4a93-a32a-07bfcca445b1
+          project_id: 9ad16920-b5ca-4e10-a008-14760532a1f5
+          command: mvn clean install
