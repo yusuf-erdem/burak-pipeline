@@ -31,7 +31,6 @@ jobs:
         with:
           apikey: 48780c35-a487-4a93-a32a-07bfcca445b1
           project_id: 9ad16920-b5ca-4e10-a008-14760532a1f5
-          command: mvn clean install
       - name: Cache SonarCloud packages
         uses: actions/cache@v1
         with:
