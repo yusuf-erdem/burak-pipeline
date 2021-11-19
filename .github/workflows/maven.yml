@@ -29,8 +29,8 @@ jobs:
       - name: Thundra Maven Test Instrumentation
         uses: thundra-io/thundra-maven-test-action@v1
         with:
-          apikey: 48780c35-a487-4a93-a32a-07bfcca445b1
-          project_id: 9ad16920-b5ca-4e10-a008-14760532a1f5
+          apikey: 3f3265a4-e5e3-4be7-bd09-a48e327a9cf0
+          project_id: 45892bb6-2200-4232-b6ad-170622b39457
           command: mvn clean install
       - name: Codecov
         # You may pin to the exact commit or the version.
