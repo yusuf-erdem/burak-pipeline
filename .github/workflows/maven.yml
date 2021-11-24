@@ -28,11 +28,11 @@ jobs:
           java-version: '11'
       - name: Thundra Maven Test Instrumentation
         uses: thundra-io/thundra-maven-test-action@v1
-        env:
-          THUNDRA_AGENT_REPORT_REST_BASEURL: https://collector.thundra.me/v1
-          THUNDRA_AGENT_BROKER_ENABLE: false
-          THUNDRA_AGENT_REPORT_UPLOAD_REST_URL: https://upload.thundra.me
-          THUNDRA_AGENT_DEBUG_ENABLE: true
+#        env:
+#          THUNDRA_AGENT_REPORT_REST_BASEURL: https://collector.thundra.me/v1
+#          THUNDRA_AGENT_BROKER_ENABLE: false
+#          THUNDRA_AGENT_REPORT_UPLOAD_REST_URL: https://upload.thundra.me
+#          THUNDRA_AGENT_DEBUG_ENABLE: true
         with:
           apikey: a4a30098-1112-478b-a131-87bf9b711e81
           project_id: e47e237b-56e3-4084-8bb2-20715a997315
