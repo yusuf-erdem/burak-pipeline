@@ -34,8 +34,8 @@ jobs:
           THUNDRA_AGENT_REPORT_UPLOAD_REST_URL: https://upload.thundra.me
           THUNDRA_AGENT_DEBUG_ENABLE: true
         with:
-          apikey: 3f3265a4-e5e3-4be7-bd09-a48e327a9cf0
-          project_id: 45892bb6-2200-4232-b6ad-170622b39457
+          apikey: a4a30098-1112-478b-a131-87bf9b711e81
+          project_id: e47e237b-56e3-4084-8bb2-20715a997315
           command: mvn clean install
       - name: Codecov
         # You may pin to the exact commit or the version.
