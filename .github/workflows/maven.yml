@@ -43,4 +43,8 @@ jobs:
         uses: codecov/codecov-action@v2.1.0
       - name: BuildPulse
         uses: Workshop64/buildpulse-action@v0.7.0
+        with:
+          account: 98819031
+          repository: 392946106
+
 
