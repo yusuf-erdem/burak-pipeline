@@ -41,10 +41,5 @@ jobs:
         # You may pin to the exact commit or the version.
         # uses: codecov/codecov-action@f32b3a3741e1053eb607407145bc9619351dc93b
         uses: codecov/codecov-action@v2.1.0
-      - name: BuildPulse
-        uses: Workshop64/buildpulse-action@v0.7.0
-        with:
-          account: 98819031
-          repository: 392946106
 
 
