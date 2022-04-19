@@ -25,7 +25,9 @@ jobs:
     - uses: actions/setup-java@v1
       with:
         java-version: 14
-    - run: mvn clean install
+        
+    - name: Build and test project with Maven
+      run: mvn -B package --file pom.xml
     
     - name: Foresight Test Report Uploader
       uses: actions/upload-artifact@v2
