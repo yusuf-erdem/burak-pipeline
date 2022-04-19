@@ -26,17 +26,24 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: '11'
-      - name: Thundra Maven Test Instrumentation
-        uses: thundra-io/thundra-maven-test-action@v1
+#      - name: Thundra Maven Test Instrumentation
+#        uses: thundra-io/thundra-maven-test-action@v1
 #        env:
 #          THUNDRA_AGENT_REPORT_REST_BASEURL: https://collector.thundra.me/v1
 #          THUNDRA_AGENT_BROKER_ENABLE: false
 #          THUNDRA_AGENT_REPORT_UPLOAD_REST_URL: https://upload.thundra.me
 #          THUNDRA_AGENT_DEBUG_ENABLE: true
+#        with:
+#          apikey: a4a30098-1112-478b-a131-87bf9b711e81
+#          project_id: c3b622f8-02c2-420c-81e8-0364074cbb0e
+#          command: mvn clean install
+      - name: Build project with Maven
+        run: mvn -B package --file pom.xml
+      - name: Foresight Test Report Uploader
+        uses: actions/upload-artifact@v2
         with:
-          apikey: a4a30098-1112-478b-a131-87bf9b711e81
-          project_id: c3b622f8-02c2-420c-81e8-0364074cbb0e
-          command: mvn clean install
+          name: test-result-junit
+          path: 'test-results/**/*.xml'
       - name: Codecov
         # You may pin to the exact commit or the version.
         # uses: codecov/codecov-action@f32b3a3741e1053eb607407145bc9619351dc93b
