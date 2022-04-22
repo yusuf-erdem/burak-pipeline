@@ -28,9 +28,11 @@ jobs:
         
     - name: Build and test project with Maven
       run: mvn -B package --file pom.xml
+      continue-on-error: true
       
     - name: Foresight Test Report Uploader
       uses: actions/upload-artifact@v2
       with:
         name: test-result-junit
         path: target/surefire-reports/
+      continue-on-error: true
