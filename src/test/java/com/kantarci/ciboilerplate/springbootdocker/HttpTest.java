@@ -25,8 +25,8 @@ public class HttpTest {
 				String.class)).contains("Hello");
 	}
 	@Test
-	public void xyz() throws Exception {
+	public void thisIsGoingToFail() throws Exception {
 		assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/",
-				String.class)).contains("He");
+				String.class)).contains("This is going to fail");
 	}
 }
