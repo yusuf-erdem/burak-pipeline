@@ -13,6 +13,9 @@ public class SpringBootDockerApplication {
   public String home() {
     return "Hello Docker World";
   }
+  public String home2() {
+    return "Hello Docker World222";
+  }
 	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootDockerApplication.class, args);
