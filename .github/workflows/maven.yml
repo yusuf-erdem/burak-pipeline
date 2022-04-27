@@ -41,4 +41,5 @@ jobs:
       uses: codecov/codecov-action@v2.1.0
       with:
         token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
-        files: /target/site/jacoco/jacoco.xml
+        directory: ./target/site/jacoco
+        files: ./jacoco.xml
