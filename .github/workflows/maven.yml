@@ -27,7 +27,7 @@ jobs:
         java-version: 14
         
     - name: Build and test project with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn -B clean install --file pom.xml
       
     - name: Foresight Test Report Uploader
       if: always()
