@@ -42,7 +42,7 @@ test for webhook
 
 | Tests | Failed Step(s) | Change coverage analysis  | |
 |--|--|--|--|
-|  ✅ 10 ❌ 2 ⏭ 0 | run tests, deploy to AWS  | [Tests (Java8) - [10]](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441), [Tests (Java11) - [99]](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
+|  ✔️ 10 ❌ 2 ⏭ 0 | run tests, deploy to AWS  | [Tests (Java8) - [10]](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441), [Tests (Java11) - [99]](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
 
 ---
 
@@ -50,11 +50,11 @@ test for webhook
 
 | Tests | Failed Step(s) | Change coverage analysis  | |
 |--|--|--|--|
-|  ✅ 99 ❌ 0 ⏭ 0 | -  | - | [See detail](#) |
+|  ✔️ 99 ❌ 0 ⏭ 0 | -  | - | [See detail](#) |
 ---
 
 [Another CI in the dust](#) workflow has succeedded in 1min 24sec. Here is the analysis:
 
 | Tests | Failed Step(s) | Change coverage analysis  | |
 |--|--|--|--|
-|  ✅ 10 ❌ 2 ⏭ 0 | run tests, deploy to AWS  | [build - [19]](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
+|  ✔️ 10 ❌ 2 ⏭ 0 | run tests, deploy to AWS  | [build - [19]](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
