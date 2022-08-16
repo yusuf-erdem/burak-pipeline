@@ -58,3 +58,17 @@ test for webhook
 | Tests | Failed Step(s) | Change impact analysis  | |
 |--|--|--|--|
 |  ✔️ 10 ❌ 2 ⏭ 0 | run tests, deploy to AWS  | [build - [19]](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
+
+
+---
+
+
+### [Foresight](https://runforesight) Report
+
+Workflow | Execution | Tests | Failed Step(s) | Change impact analysis  | |
+|--|--|--|--|--|--|
+|[Node.js CI](#) | ```1min 48sec``` |  ✔️ 10 ❌ 2 ⏭ 0 | run tests, deploy to AWS  | [Tests (Java8) - [10]](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441), [Tests (Java11) - [99]](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
+|[Foresight.js CI](#) | ```1min 48sec``` |  ✔️ 99 ❌ 0 ⏭ 0 | -  | - | [See detail](#) |
+[Another CI in the dust](#) | ```1min 48sec``` |  ✔️ 10 ❌ 2 ⏭ 0 | run tests, deploy to AWS  | [build - [19]](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
+
+---
