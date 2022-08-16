@@ -38,23 +38,23 @@ test for webhook
 
 
 ### [Foresight](https://runforesight) Report
-[Node.js CI](#) workflow has succeedded in 1min 48sec. Here is the analysis:
+❌ [Node.js CI](#) workflow has failed in ```1min 48sec```
 
-| Tests | Failed Step(s) | Change coverage analysis  | |
+| Tests | Failed Step(s) | Change impact analysis  | |
 |--|--|--|--|
 |  ✔️ 10 ❌ 2 ⏭ 0 | run tests, deploy to AWS  | [Tests (Java8) - [10]](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441), [Tests (Java11) - [99]](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
 
 ---
 
-[Foresight CI](#) workflow has succeedded in 1min 24sec. Here is the analysis:
+✅ [Foresight CI](#) workflow has succeedded in ```1min 24sec```
 
-| Tests | Failed Step(s) | Change coverage analysis  | |
+| Tests | Failed Step(s) | Change impact analysis  | |
 |--|--|--|--|
 |  ✔️ 99 ❌ 0 ⏭ 0 | -  | - | [See detail](#) |
 ---
 
-[Another CI in the dust](#) workflow has succeedded in 1min 24sec. Here is the analysis:
+❌ [Another CI in the dust](#) workflow has failed in ```1min 24sec```
 
-| Tests | Failed Step(s) | Change coverage analysis  | |
+| Tests | Failed Step(s) | Change impact analysis  | |
 |--|--|--|--|
 |  ✔️ 10 ❌ 2 ⏭ 0 | run tests, deploy to AWS  | [build - [19]](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
