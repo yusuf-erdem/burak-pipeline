@@ -1,72 +1,14 @@
-# tessdfadf
-asdfasdfa
-sadfasdfasd
+<a href="https://runforesight.com"><img src="https://camo.githubusercontent.com/c958d76a8f7d8427250c99364a2c17c752ad4ded9ef8873116459de1d714f7f4/68747470733a2f2f666f726573696768742d6173736574732d6c61622e73332e75732d776573742d322e616d617a6f6e6177732e636f6d2f696d616765732f6d61696c2f666f726573696768742d6c6f676f2d75726c2e706e67" width="100" /></a>
 
-### [Foresight](https://runforesight) Report
-[Node.js CI](#) workflow has succeedded in 1min 48sec. Here is the analysis:
+### Foresight CI Report
 
-| Job | Failed Step | Tests | Changed impact  |  | 
+[Node.js CI](https://app.runforesight.com) workflow has succeedded in 1min 48sec finished at Sep 9th. Here is the analysis:
+
+| Job | Failed Step | Tests | Not tested changed lines*  |  | 
 |--|--|--|--|--|
-| **build** | run tests | ✅ 10 ❌ 2 ⏭ 0| [211](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
-| **OpenTelemetry Export Trace** | - | - | [10](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441)  | [See detail](#) |
+| **build** | run tests | ✅ 10 ❌ 2 ⏭ 0| 211 | [See detail](https://app.runforesight.com) |
+| **OpenTelemetry Export Trace** | - | - | 10  | [See detail](https://app.runforesight.com) |
 
----
-
-[Foresight CI](#) workflow has succeedded in 1min 24sec. Here is the analysis:
-
-| Job | Failed Step | Tests | Changed impact  |  | 
-|--|--|--|--|--|
-| **build** | run tests | ✅ 10 ❌ 2 ⏭ 0| [211](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
-
----
-
-[Another CI in the dust](#) workflow has succeedded in 1min 24sec. Here is the analysis:
-
-| Job | Failed Step | Tests | Changed impact  |  | 
-|--|--|--|--|--|
-| **build** | run tests | ✅ 10 ❌ 2 ⏭ 0| [211](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
-| **build** | run tests | ✅ 10 ❌ 2 ⏭ 0| [211](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
-| **build** | run tests | ✅ 10 ❌ 2 ⏭ 0| [211](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
-| **build** | run tests | ✅ 10 ❌ 2 ⏭ 0| [211](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
-| **build** | run tests | ✅ 10 ❌ 2 ⏭ 0| [211](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
-| **build** | run tests | ✅ 10 ❌ 2 ⏭ 0| [211](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
-
-
-
-
-
-### [Foresight](https://runforesight) Report
-❌ [Node.js CI](#) workflow has failed in ```1min 48sec```
-
-| Tests | Failed Step(s) | Change impact analysis  | |
-|--|--|--|--|
-|  ✔️ 10 ❌ 2 ⏭ 0 | run tests, deploy to AWS  | [Tests (Java8) - [10]](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441), [Tests (Java11) - [99]](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
-
----
-
-✅ [Foresight CI](#) workflow has succeedded in ```1min 24sec```
-
-| Tests | Failed Step(s) | Change impact analysis  | |
-|--|--|--|--|
-|  ✔️ 99 ❌ 0 ⏭ 0 | -  | - | [See detail](#) |
----
-
-❌ [Another CI in the dust](#) workflow has failed in ```1min 24sec```
-
-| Tests | Failed Step(s) | Change impact analysis  | |
-|--|--|--|--|
-|  ✔️ 10 ❌ 2 ⏭ 0 | run tests, deploy to AWS  | [build - [19]](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
-
-
----
-
-
-### [Foresight](https://runforesight) Report
-
-Workflow | Execution | Tests | Failed Step(s) | Change impact analysis  | |
-|--|--|--|--|--|--|
-|[Node.js CI](#) | ```1min 48sec``` |  ✔️ 10 ❌ 2 ⏭ 0 | run tests, deploy to AWS  | [Tests (Java8) - [10]](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441), [Tests (Java11) - [99]](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
-|[Foresight.js CI](#) | ```1min 48sec``` |  ✔️ 99 ❌ 0 ⏭ 0 | -  | - | [See detail](#) |
-[Another CI in the dust](#) | ```1min 48sec``` |  ✔️ 10 ❌ 2 ⏭ 0 | run tests, deploy to AWS  | [build - [19]](https://github.com/burakkantarci/burak-pipeline/pull/11/checks?check_run_id=6211857441) | [See detail](#) |
+<sup>*Not tested changed lines calculated for determining how much of the changes are covered by the tests.</sup>
 
 ---
