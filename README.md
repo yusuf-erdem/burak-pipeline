@@ -1,5 +1,4 @@
-<a href="https://github.com/burakkantarci/burak-pipeline/blob/main/Foresight-logo(white-bg).png?raw=true"/></a>
-
+[![Foresight logo](https://github.com/burakkantarci/burak-pipeline/blob/main/Foresight-logo(white-bg).png?raw=true)](https://app.runforesight.com)
 ### Foresight CI Report
 
 ---
